@@ -1,0 +1,423 @@
+@font-face
+
+{
+    font-family: 'Knight';
+
+    src: url('../fonts/Knight.otf');
+
+    font-weight: normal;
+
+    font-style: normal;
+}
+
+@font-face
+
+{
+    font-family: 'Comforta';
+
+    src: url('../fonts/Comfortaa.ttf');
+
+    font-weight: normal;
+
+    font-style: normal;
+}
+
+@font-face
+
+{
+    font-family: 'varsity';
+
+    src: url('../fonts/varsity.ttf');
+
+    font-weight: normal;
+
+    font-style: normal;
+}
+
+#global {
+    width: 100%;
+    max-width: 100%;
+    min-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div#bannier
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cce0ff;
+    padding: 10px 0px 10px 0px;
+}
+
+div.ip
+{
+      font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #002966;
+}
+
+div.info-player
+{
+      font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:#002966;
+}
+
+
+nav ul
+{
+position: relative;
+display: flex;
+justify-content:center;
+overflow: auto;
+align-items: center;
+padding: 0px;
+background-color: white;
+list-style-type: none;
+margin: auto; 
+height: 100px;
+}
+
+body
+{
+    background-image: url("../img/fond_accueil.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+
+.nom
+{
+    font-family: 'varsity';
+    margin-right: 300px;
+    font-size: 3.5em;
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
+.accueil
+{
+
+    background-color: #1cc7e3;
+
+    font-size: 1.5em;
+    font-family: 'Comforta';
+
+    text-align: center;
+
+    padding: 36px 8px 36px 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 40px;
+    color: white;
+
+    text-decoration: none;
+}
+
+.forum,.shop,.connection,.inscription,.jouez
+{
+    font-size: 1.5em;
+    font-family: 'Comforta';
+
+    padding: 0px 8px 0px 8px;
+    margin-left:0px;
+    margin-right: 0px;
+    height: 40px;
+    color: rgba(45, 45, 45 , 0.5);
+
+    text-decoration: none;
+}
+
+.shop:hover,.forum:hover,.connection:hover,.inscription:hover,.jouez:hover
+{
+
+
+    font-size: 1.5em;
+    font-family: 'Comforta';
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+
+label 
+{
+ margin-top:10px;
+ display:block;
+ font-family: 'varsity';
+ }
+label.inline 
+{
+ display:inline;
+ margin-right:50px;
+ font-family: 'varsity';
+ }
+
+input, textarea, select 
+{
+ padding:3px;
+ border:1px solid rgb(110,170,206);
+ background-color: white;
+ border-radius:0px;
+ width:200px;
+ height: 30px;
+ box-shadow:1px 1px 10px rgb(110,170,206) ;
+ color:white;
+background-color: rgba(28, 199, 227,0.8);
+ }
+input[type=submit], input[type=reset] 
+{
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 10px rgb(110,170,206);
+ background-color: rgba(28, 199, 227,0.8);
+ cursor:pointer;
+ border-radius: 0px;
+ }
+
+ #formul
+ {
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 5%;
+ }
+
+ h2.registre,.login
+ {
+    font-family: 'Comforta';
+    font-size:50px;
+    margin-top: 100px;
+    padding-top: 50px;
+ }
+
+
+
+div#choixIp2
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 350px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+a.t3 , a.t5 , a.t6
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Comforta';
+    font-size: 25px;   
+
+}
+
+.bouton
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 3px;
+ background-color: #00ffff;
+ border-radius:5px;
+ margin-left: 5px;
+ height: 70px;
+ width: 250px;
+ text-decoration: none;
+ font-family: 'Comforta';
+ font-size: 30px;
+ color:white;
+}
+
+.leader
+{
+     font-family: 'Comforta';
+     font-size: 2em;
+     margin-top:5px;
+}
+
+h1.head
+{
+    margin-bottom: 5px;
+     font-family: 'Comforta';
+     font-size: 5em;
+}
+
+div#choixIp
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    border-radius: 10px;
+    height: 200px;
+    background-color: white;
+}
+
+div#choixDl
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    height: 300px;
+    background-color: white;
+}
+
+
+
+a.t1
+{
+    padding: 0;
+    margin-top: 80px;
+    font-family: 'Comforta';
+    font-size: 40px;   
+
+}
+
+a.t2
+{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;   
+}
+
+
+
+.bouton1
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 3px;
+ background-color: #00ffff;
+ border-radius:5px;
+ margin-left: 5px;
+ height: 50px;
+ width: 250px;
+ text-decoration: none;
+ font-family: 'Comforta';
+ font-size: 30px;
+ color:white;
+}
+
+.leader1
+{
+     font-family: 'Comforta';
+     font-size: 2em;
+     margin-top:5px;
+}
+
+h1.head1
+{
+    margin-bottom: 5px;
+     font-family: 'Comforta';
+     font-size: 5em;
+}
+
+#mini-jeux
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 297px;
+}
+
+.minijeux
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.icon img{
+  height: 100px;
+  width: 100px;
+  margin-top:0px;
+ margin-bottom:0px;
+}
+
+.chicken , .skyforce , .fallingvoid
+{
+     font-family: 'Comforta';
+     font-size: 1.5em;
+     margin-top:0px;
+     margin-left:100px;
+     margin-right: 100px;
+     margin-bottom:0px;
+ }
+
+ .bouton_savoir
+ {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #00e6e6;;
+    border-radius: 3px;
+    margin-top:0px;
+     margin-bottom:0px;
+    padding: 8px 8px 8px 8px;
+    background-color: #00ffff;
+    height: 20px;
+    font-family: 'Comforta';
+ }
+
+  .bouton_savoir:hover
+ {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #00b3b3;;
+    border-radius: 3px;
+    margin-top:0px;
+     margin-left:20px;
+     margin-right:20px;
+     margin-bottom:0px;
+    padding: 8px 8px 8px 8px;
+    background-color: #00cccc;
+    height: 20px;
+    font-family: 'Comforta';
+ }
+
+#mdjp
+{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+.titre
+{
+    font-family: 'Comforta';
+    margin-right: 10px;
+}
+
+.text
+{
+    font-family: 'Comforta';
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+footer
+{
+    background-color: white;
+}
+#footer
+{
+    display: flex;
+    justify-content: space-around;
+    height: 42px
+}
+.copyright
+{
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    margin-top: 40%;
+    font-family: 'Comforta';
+    
+}
+
